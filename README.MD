@@ -1,0 +1,1 @@
+Adds patch so that Magento 2 will accept MariaDB 10.5. It's not a compatibility fix, just forcing Magento to accept it. 
