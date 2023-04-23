@@ -2,7 +2,7 @@
     <type name="Magento\Framework\DB\Adapter\SqlVersionProvider">
         <arguments>
             <argument name="supportedVersionPatterns" xsi:type="array">
-                <item name="MariaDB-(10.2-10.5)" xsi:type="string">^10\.[2-5]\.</item>
+                <item name="MariaDB-(10.2-10.6)" xsi:type="string">^10\.[2-6]\.</item>
             </argument>
         </arguments>
     </type>
