@@ -1,0 +1,10 @@
+# Exclude from source archives (git archive / GitHub release zips)
+AGENTS.md               export-ignore
+CHANGELOG.md            export-ignore
+README.md               export-ignore
+USER_GUIDE.md           export-ignore
+create-junction.cmd     export-ignore
+.gitattributes          export-ignore
+.gitignore              export-ignore
+.github/                export-ignore
+docs/                   export-ignore
