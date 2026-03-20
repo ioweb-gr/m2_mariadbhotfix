@@ -1,17 +1,12 @@
 {
-    "name": "ioweb/mariadbhotfix",
-    "description": "",
-    "require": {
-        "php": "~5.5.0|~5.6.0|~7.0.0|~7.2.0|~7.3.0|~7.4.0|~8.0.0|~8.1.0|~8.2.0|~8.3.0|~8.4.0",
-        "magento/magento-composer-installer": "*"
-    },
-    "suggest": {
-
-    },
+    "name": "ioweb-gr/m2_mariadbhotfix",
+    "description": "Patches Magento 2 to accept MariaDB 10.x and 11.x by adding the required version patterns to SqlVersionProvider.",
     "type": "magento2-module",
-    "license": [
-
-    ],
+    "version": "1.0.9",
+    "license": "proprietary",
+    "require": {
+        "php": ">=7.0"
+    },
     "autoload": {
         "files": [
             "registration.php"
@@ -19,5 +14,5 @@
         "psr-4": {
             "Ioweb\\MariaDbHotfix\\": ""
         }
-    }  
+    }
 }
